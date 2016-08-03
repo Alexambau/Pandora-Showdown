@@ -3543,11 +3543,11 @@ exports.BattleScripts = {
 			switch (tier) {
 			case 'Uber':
 				// Ubers are limited to 2 but have a 20% chance of being added anyway.
-				if (uberCount > 1 && this.random(5) >= 1) continue;
+				if (uberCount > 1 && this.random(5) >= 1) continue; // eslint-disable-line no-unused-vars
 				break;
 			case 'PU':
 				// PUs are limited to 2 but have a 20% chance of being added anyway.
-				if (puCount > 1 && this.random(5) >= 1) continue;
+				if (puCount > 1 && this.random(5) >= 1) continue; // eslint-disable-line no-unused-vars
 				break;
 			}
 
